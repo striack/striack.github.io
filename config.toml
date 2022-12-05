@@ -1,8 +1,8 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://striack.github.io/"
-title = "Stri@ck Lab"
+baseURL = "https://example.com/"
+title = "Stri@ack Lab"
 languageCode = "it"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -98,11 +98,11 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "Stri@ck"
+    name = "striack"
     # Email
     email = "striack@proton.me"
     # Motto or introduction
-    motto = "Viva La Vida"
+    motto = "Let's hack the planet!"
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
@@ -203,36 +203,36 @@ uglyURLs = false
 
 [menu]
     ## Menu bar
-    # [[menu.main]]
-    #     pageref = "/"
-    #     name = "Home"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
+     [[menu.main]]
+         pageref = "/"
+         name = "Home"
+         weight = 1
+         pre = "internal"
+         post = "home"
     [[menu.main]]
         pageref = "/posts/"
         name = "Posts"
         weight = 2
         pre = "internal"
         post = "archive"
-    [[menu.main]]
-        pageref = "/categories/"
-        name = "Categories"
-        weight = 3
-        pre = "internal"
-        post = "th"
-    [[menu.main]]
-        pageref = "/tags/"
-        name = "Tags"
-        weight = 4
-        pre = "internal"
-        post = "tags"
-    [[menu.main]]
-        pageref = "/about/"
-        name = "About"
-        weight = 5
-        pre = "internal"
-        post = "user-circle"
+    #[[menu.main]]
+    #    pageref = "/categories/"
+    #    name = "Categories"
+    #    weight = 3
+    #    pre = "internal"
+    #    post = "th"
+    #[[menu.main]]
+    #    pageref = "/tags/"
+    #    name = "Tags"
+    #    weight = 4
+    #    pre = "internal"
+    #    post = "tags"
+    #[[menu.main]]
+    #    pageref = "/about/"
+    #    name = "About"
+    #    weight = 5
+    #    pre = "internal"
+    #    post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -325,7 +325,7 @@ uglyURLs = false
     # 3. posts     List of post’s summary
     # 4. page      Normal page/post
 
-    homeLayout = "posts"
+    homeLayout = "home"
 
     ## Poetry
     # Verse (Markdown supported)
