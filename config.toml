@@ -322,7 +322,7 @@ uglyURLs = false
     # 3. posts     List of post’s summary
     # 4. page      Normal page/post
 
-    homeLayout = "home"
+    homeLayout = "page"
 
     ## Poetry
     # Verse (Markdown supported)
