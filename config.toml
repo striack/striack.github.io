@@ -217,25 +217,25 @@ uglyURLs = false
         name = "Post"
         weight = 2
         pre = "internal"
-        post = "archive"
+        post = "folder"
     [[menu.main]]
         pageref = "/progetti/"
         name = "Progetti"
         weight = 2
         pre = "internal"
-        post = "archive"
+        post = "th"
     [[menu.main]]
         pageref = "/about/"
         name = "About"
         weight = 5
         pre = "internal"
-        post = "user-circle"
+        post = "info"
     [[menu.main]]
         pageref = "/manifesto/"
         name = "Manifesto"
         weight = 6
         pre = "internal"
-        post = "user-circle"
+        post = "question"
     [[menu.main]]
         weight = 7
         identifier = "theme-switcher"
