@@ -291,7 +291,7 @@ uglyURLs = false
     # family can be configured in typography
     # section at the bottom of this file.
     # Unit: em
-    siteBrandFontSize = 1
+    siteBrandFontSize = 5
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
