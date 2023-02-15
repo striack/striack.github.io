@@ -231,13 +231,19 @@ uglyURLs = false
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
+        pageref = "/manifesto/"
+        name = "Manifesto"
         weight = 6
-        identifier = "theme-switcher"
+        pre = "internal"
+        post = "user-circle"
     [[menu.main]]
         weight = 7
-        identifier = "lang-switcher"
+        identifier = "theme-switcher"
     [[menu.main]]
         weight = 8
+        identifier = "lang-switcher"
+    [[menu.main]]
+        weight = 9
         identifier = "search"
         post = "search"
 
