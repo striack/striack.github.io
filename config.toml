@@ -212,36 +212,24 @@ uglyURLs = false
 
 [menu]
     ## Menu bar
-     [[menu.main]]
-         pageref = "/"
-         name = "Home"
-         weight = 1
-         pre = "internal"
-         post = "home"
     [[menu.main]]
-        pageref = "/posts/"
-        name = "Posts"
+        pageref = "/post/"
+        name = "Post"
         weight = 2
         pre = "internal"
         post = "archive"
-    #[[menu.main]]
-    #    pageref = "/categories/"
-    #    name = "Categories"
-    #    weight = 3
-    #    pre = "internal"
-    #    post = "th"
-    #[[menu.main]]
-    #    pageref = "/tags/"
-    #    name = "Tags"
-    #    weight = 4
-    #    pre = "internal"
-    #    post = "tags"
-    #[[menu.main]]
-    #    pageref = "/about/"
-    #    name = "About"
-    #    weight = 5
-    #    pre = "internal"
-    #    post = "user-circle"
+    [[menu.main]]
+        pageref = "/progetti/"
+        name = "Progetti"
+        weight = 2
+        pre = "internal"
+        post = "archive"
+    [[menu.main]]
+        pageref = "/about/"
+        name = "About"
+        weight = 5
+        pre = "internal"
+        post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -502,7 +490,7 @@ uglyURLs = false
     #       name of the folder under the
     #       site’s `content` directory.
 
-    # mainSections = ["posts"]
+    # mainSections = ["post"]
 
 
     ######################################
