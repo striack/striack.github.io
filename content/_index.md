@@ -1,6 +1,6 @@
 +++
 title = "Lunedì hackspace?"
-date = "2023-02-14"
+date = "2023-02-15"
 displayInMenu = true
 displayInList = false
 dropCap = false
