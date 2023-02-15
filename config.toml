@@ -16,6 +16,15 @@ newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "it"
+
+[languages]
+  [languages.it]
+    languageName = "Italiano"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
 defaultContentLanguageInSubdir = false
 
 # Pluralize titles in lists?
@@ -460,9 +469,9 @@ uglyURLs = false
     chineseZodiac = true
 
     # Translate the year? (valid for title)
-    i18nYear = false
+    i18nYear = true
     # Translate the month? (valid for title)
-    i18nMonth = false
+    i18nMonth = true
 
 
     ######################################
@@ -1323,7 +1332,7 @@ uglyURLs = false
     ######################################
     # Multilingual
 
-    enableLangToggle = false
+    enableLangToggle = true
 
     hideLangToggleInHome = false
 
