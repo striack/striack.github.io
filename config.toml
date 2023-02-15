@@ -1126,7 +1126,7 @@ uglyURLs = false
 
     enablePostCopyright = true
 
-    displayPostCopyright = true
+    displayPostCopyright = false
     # Note: *global settings*
     #       `displayCopyright` in post’s Front Matter
     #       has a higher priority than here
@@ -1281,7 +1281,7 @@ uglyURLs = false
     displayFooterInHome = true
 
     displayCopyleftSymbol = false
-    displayCopyrightSymbol = true
+    displayCopyrightSymbol = false
 
     displaySiteCreatedYear = true
 
