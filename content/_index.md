@@ -7,7 +7,7 @@ dropCap = false
 meta = false
 +++
 
-A **Stri@ck** non ci sono soltanto dei nerd e delle nerd smanettone.
+A **stri@ck** non ci sono soltanto dei nerd e delle nerd smanettone.
 
 Nell'hackspace ospitato dallo [**spazio Stria**](https://www.instagram.com/spazio.stria) non smontiamo proprio ogni singolo dispositivo che ci capita sotto mano.
 
