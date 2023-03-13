@@ -14,6 +14,11 @@ theme = "meme"
 # `hugo new` automatically opened text editor
 newContentEditor = ""
 
+# Enable generation of `robots.txt` file?
+enableRobotsTXT = true
+
+defaultContentLanguageInSubdir = false
+
 # i18n
 defaultContentLanguage = "it"
 
@@ -24,8 +29,6 @@ defaultContentLanguage = "it"
   [languages.en]
     languageName = "English"
     weight = 2
-
-defaultContentLanguageInSubdir = false
 
 # Pluralize titles in lists?
 pluralizeListTitles = false
@@ -41,9 +44,6 @@ footnoteReturnLinkContents = "↩"
 
 # Enable `.GitInfo` object for each page?
 enableGitInfo = false
-
-# Enable generation of `robots.txt` file?
-enableRobotsTXT = true
 
 # Number of items per page in paginated
 # lists (valid for the `posts` homepage
