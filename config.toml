@@ -65,6 +65,7 @@ uglyURLs = false
     category = "categories"
     tag = "tags"
 
+
 # Modified date
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
@@ -213,7 +214,7 @@ uglyURLs = false
 [menu]
     ## Menu bar
     [[menu.main]]
-        pageref = "/post/"
+        pageref = "/posts/"
         name = "Post"
         weight = 2
         pre = "internal"
@@ -495,7 +496,7 @@ uglyURLs = false
     #       name of the folder under the
     #       site’s `content` directory.
 
-    # mainSections = ["post"]
+    mainSections = ["posts"]
 
 
     ######################################
