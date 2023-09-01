@@ -1133,7 +1133,7 @@ uglyURLs = false
 
     enablePostCopyright = true
 
-    displayPostCopyright = false
+    displayPostCopyright = true
     # Note: *global settings*
     #       `displayCopyright` in post’s Front Matter
     #       has a higher priority than here
