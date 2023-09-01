@@ -5,6 +5,7 @@ type = "posts"
 date = "2023-07-24"
 displayInList = true
 enablePostShare = true
+original = false
 author = "Udianon"
 +++
 
@@ -55,9 +56,10 @@ Qui rimane l'indagine, ipotizzando che il processore non si avvii correttamente 
 
 
 ## Link rilevanti
-[RaspberryPi B Schematics](https://www.raspberrypi.com/app/uploads/2012/04/Raspberry-Pi-Schematics-R1.0.pdf)
-[Controller USB-Ethernet](https://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf)
-[Chip UART del ESP8266](https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf)
+
+1. [RaspberryPi B Schematics](https://www.raspberrypi.com/app/uploads/2012/04/Raspberry-Pi-Schematics-R1.0.pdf)
+2. [Controller USB-Ethernet](https://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf)
+3. [Chip UART del ESP8266](https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf)
 
 ## Futuri step
 https://www.jeffgeerling.com/blog/2021/attaching-raspberry-pis-serial-console-uart-debugging
