@@ -29,6 +29,8 @@ defaultContentLanguage = "it"
   [languages.en]
     languageName = "English"
     weight = 2
+    [languages.en.params]
+      footnoteReturnLinkContents = "↩"
 
 # Pluralize titles in lists?
 pluralizeListTitles = false
@@ -40,7 +42,6 @@ summaryLength = 42
 enableEmoji = false
 
 # Text to display for footnote return links
-footnoteReturnLinkContents = "↩"
 
 # Enable `.GitInfo` object for each page?
 enableGitInfo = false
